@@ -21,7 +21,7 @@ class grand_truth():
                 label_names.append(folders + '\\' +label)
         return label_names
 
-
+  
     def label_reader(self, path):
         labels = []
         for address in path:
@@ -117,4 +117,5 @@ def run():
 
     print('DONE')
 if __name__ == '__main__':
+
     run()
